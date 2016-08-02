@@ -1,0 +1,57 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("latte.sitback.com.au") {
+  #ui-datepicker-div {
+    padding: 10px;
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .ui-datepicker-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border:1px solid #ccc;
+    padding: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .ui-datepicker .ui-datepicker-prev,
+  .ui-datepicker .ui-datepicker-next {
+    display: block;
+    position: static;
+    width: auto;
+  }
+  
+  .ui-datepicker .ui-datepicker-prev span,
+  .ui-datepicker .ui-datepicker-next span {
+    background-image: none;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: block;
+    position: static;
+    margin: 0;
+    padding: 5px 10px;
+  }
+
+  .ui-datepicker .ui-datepicker-prev {
+    order:1;
+  }
+  
+  .ui-datepicker .ui-datepicker-next {
+    order:3;
+  }
+  
+  .ui-datepicker .ui-datepicker-title {
+    order: 2;
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+
+
+#latte .ui-datepicker td span, .ui-datepicker td a {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  color: #444;
+}
